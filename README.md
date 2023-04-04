@@ -4,10 +4,10 @@ Live twitter sentiment analysis based on a given search term
 
 1. You'll need to install the following libraries in a conda env or venv or globally on your PC
 
-    -- tweepy for scraping tweets
-    -- afinn for get the sentiments
-    -- confluent_kafka to stream tweets to kafka
-    -- socket for kafka connection
+    -- tweepy for scraping tweets<br>
+    -- afinn for getting the sentiments<br>
+    -- confluent_kafka to stream tweets to kafka<br>
+    -- socket for kafka connection<br>
 
 2. Create a twitter developer account and get and paste your bearer_token where it is written YOUR_BEARER_TOKEN_GOES_HERE in stream_tweets.py and replace the search term accordingly.
 3. Run zookeeper command: bin/zookeeper-server-start.sh config/zookeeper.properties
